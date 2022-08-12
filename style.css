@@ -1,0 +1,94 @@
+
+/* html {
+  font-size: 2rem;
+  } */
+
+  .parent {
+    font-size: 2em;
+  }
+
+  .child {
+    font-size: .5em;
+  }
+/* h1{
+  color: blue;
+}
+
+h2{
+  color: pink;
+}
+
+.example{
+  color: orange;
+}
+
+.example2{
+  background: #000;
+}
+
+.example .example2{
+  font-size: 50px;
+}
+
+#example{
+   font-size: 100px;
+} */
+
+ /* descendant selectors   */
+/* a{
+  color: black;
+} */ 
+
+/* section a {
+  color: green;
+} */
+/* 
+.container a {
+  color: orange;
+}
+
+.container p a {
+  color: green;
+} */
+
+/* <!-- inheritance and speceficity  --> */
+/* section {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: 30px;
+  color: orange;
+} */ 
+
+body {
+
+  margin: 50px;
+}
+/* <!-- pseudo-class selectors and links  --> */
+a:visited {
+  color: gray;
+}
+
+a:focus{
+  outline: 1px solid black;
+}
+
+a:hover {
+  background: gray;
+}
+
+a:active {
+  color: white;
+}
+
+/* <!-- font weight and font style  --> */
+header {
+  font-weight: bold;
+}
+
+header h1 {
+  /* font-weight: 400; */
+  font-weight: normal;
+}
+
+i {
+  font-style: normal;
+}
